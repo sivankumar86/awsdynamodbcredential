@@ -1,12 +1,12 @@
 # awsdynamodbcredential
-How to assume role in dynamodb connector to other account 
+How to assume role in dynamodb connector to other account in EMR
 
-You can access cross account using dynamodb connector in hive
+You can access cross account using dynamodb connector in hive in EMR
 
 Copy the jar to hive auxlib path.
 
 ```
-## You can use step to copy the jar from s3 to hive path
+## You can use step to copy the jar from s3 to hive path in EMR
 
 aws s3 cp <s3 path> .
 sudo cp awsdynamodbcredential.jar /usr/lib/hive/auxlib/
