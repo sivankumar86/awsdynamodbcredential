@@ -22,7 +22,7 @@ hive -hiveconf dynamodb.customAWSCredentialsProvider=software.awssupport.dynamod
 ## Set crossaccount role in hive
 
 ```
-set assumed.creds.role.arn=arn:aws:iam::856866798006:role/crossdynamodbtest
+set assumed.creds.role.arn=arn:aws:iam::231231231:role/crossdynamodbtest
 
 ```
 
