@@ -1,6 +1,7 @@
 # awsdynamodbcredential
-You can access cross account using dynamodb connector in hive
+How to assume role in dynamodb connector to other account 
 
+You can access cross account using dynamodb connector in hive
 
 Copy the jar to hive auxlib path.
 
